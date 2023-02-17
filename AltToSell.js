@@ -1,0 +1,1 @@
+document.onkeydown = function(e) {var key = key || e.keyCode;if (key == 18) {Game.storeBulkButton(1);}};document.onkeyup = function(e) {var key = key || e.keyCode;if (key == 18) {Game.storeBulkButton(0);}};
