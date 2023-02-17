@@ -10,12 +10,14 @@ TimerWidget.launch = function(){
 	TimerWidget.init = function(){
 		TimerWidget.colorLookup = {
 			'Frenzy': 			'#ffff00', 
-			'Dragon Harvest': 	'#8b4513', 
-			'Elder frenzy': 	'#00ff00', 
+			'Dragon Harvest': 	'#634927', 
+			'Elder frenzy': 	'#940303', 
 			'Clot': 			'#ff0000', 
 			'Click frenzy': 	'#4bb8f0', 
-			'Dragonflight': 	'#ff1493',
-			'default': 			'#ff00ff'
+			'Dragonflight': 	'#634927',
+			'Hurri-Cane Sugar': 	'#e3be02',
+			'cursed finger': 	'#fa5252',
+			'default': 			'#5e5e5c'
 		};
 		
 		Game.customStatsMenu.push(function(){
